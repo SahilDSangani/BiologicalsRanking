@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Database Viewer</h1>
+        <p>Click on any column header to sort</p>
+        
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable('company')">Company ↕</th>
+                    <th onclick="sortTable('website')">Website ↕</th>
+                    <th onclick="sortTable('total_citations')">Total Citations ↕</th>
+                    <th onclick="sortTable('research_reports')">Research ↕</th>
+                    <th onclick="sortTable('lab_reports')">Lab ↕</th>
+                    <th onclick="sortTable('field_reports')">Field ↕</th>
+                    <th onclick="sortTable('testimonials')">Testimonials ↕</th>
+                    <th onclick="sortTable('news_articles')">News ↕</th>
+                    <th onclick="sortTable('news_sentiment')">Sentiment ↕</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
