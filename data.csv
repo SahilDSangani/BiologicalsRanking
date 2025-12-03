@@ -1,6 +1,6 @@
 company,website,total_citations,research_reports,lab_reports,field_reports,testimonials,news_articles,news_sentiment
-AcmeCorp,www.acmecorp.com,45,12,15,10,8,7,favorable
-TechSolutions Inc,www.techsolutions.com,32,8,10,9,5,4,unfavorable
-InnovateLabs,www.innovatelabs.io,58,20,18,12,8,6,favorable
-GlobalTech,www.globaltech.com,28,5,8,10,5,3,favorable
-DataDynamics,www.datadynamics.net,41,11,12,10,8,5,unfavorable
+Imerys Filtration Minerals Inc.,https://www.imerys.com/,45,12,15,10,8,7,favorable
+FMC Professional Solutions Inc,https://www.fmc.com/en,32,8,10,9,5,4,unfavorable
+BioWorks Canada,https://bioworksinc.com/,58,20,18,12,8,6,favorable
+Lucent Bioscience,www.globaltech.com,28,5,8,10,5,3,favorable
+Blacksmith BioScience,www.datadynamics.net,41,11,12,10,8,5,unfavorable
