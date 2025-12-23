@@ -1,11 +1,12 @@
-company,website,total_citations,research_reports,lab_reports,field_reports,testimonials,news_articles,news_sentiment
-Imerys Filtration Minerals Inc.,https://www.imerys.com/,45,12,15,10,8,7,favorable
-FMC Professional Solutions Inc,https://www.fmc.com/en,32,8,10,9,5,4,unfavorable
-BioWorks Canada,https://bioworksinc.com/,58,20,18,12,8,6,favorable
-Lucent Bioscience,www.globaltech.com,28,5,8,10,5,3,favorable
-Blacksmith BioScience,www.datadynamics.net,41,11,12,10,8,5,unfavorable
-Winfield United Canada,https://www.winfieldunited.ca/en,-1,-1,-1,-1,-1,-1,favorable
-Target Specialty Products Inc.,https://www.target-specialty.com/,-1,-1,-1,-1,-1,-1,favorable
-Orbem,https://orbem.ai/,-1,-1,-1,-1,-1,-1,favorable
-Summit Agro USA LLC,https://www.summitagro-usa.com/,-1,-1,-1,-1,-1,-1,favorable
-Nufarm Americas Inc.,https://nufarm.com/us/,-1,-1,-1,-1,-1,-1,favorable
+company,website,total_citations,research_reports,lab_reports,field_reports,testimonials,news_articles,sentiment
+Imerys Filtration Minerals Inc.,https://www.imerys.com/,74,32,11,14,6,11,Neutral
+FMC Professional Solutions,https://www.fmc.com/en,46,16,5,10,5,10,Neutral
+BioWorks Canada,https://bioworksinc.com/,55,19,6,11,6,13,Neutral
+Lucent Bioscience,https://lucentbiosciences.com/,43,8,2,15,4,14,Neutral
+Blacksmith BioScience,https://blacksmithbio.com/,40,11,10,9,5,5,Neutral
+Winfield United Canada,https://www.winfieldunited.ca/en,61,14,6,16,13,12,Neutral
+Target Specialty Products Inc.,https://www.target-specialty.com/,40,8,6,7,5,14,Neutral
+Orbem,https://orbem.ai/,121,35,12,18,14,42,Neutral
+Summit Agro USA LLC,https://www.summitagro-usa.com/,45,11,4,12,6,12,Neutral
+Nufarm Americas Inc.,https://nufarm.com/us/,80,39,4,13,2,22,Neutral
+Huma Gro,https://humagro.com/case-studies/,113,24,11,42,14,22,Neutral

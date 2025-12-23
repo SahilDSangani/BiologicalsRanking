@@ -23,9 +23,14 @@ function renderTable(data) {
     data.forEach(row => {
         const tr = document.createElement('tr');
         
-        const sentimentIcon = row.news_sentiment === 'favorable' 
-            ? '<span class="favorable">👍 Favorable</span>' 
-            : '<span class="unfavorable">👎 Unfavorable</span>';
+        let sentimentIcon = '<span class="neutral">⚖️ Neutral</span>';
+
+        if (row.news_sentiment === 'favorable') {
+            sentimentIcon = '<span class="favorable">👍 Favorable</span>';
+        } else if (row.news_sentiment === 'unfavorable') {
+            sentimentIcon = '<span class="unfavorable">👎 Unfavorable</span>';
+        }
+
         
         tr.innerHTML = `
             <td>${row.company}</td>

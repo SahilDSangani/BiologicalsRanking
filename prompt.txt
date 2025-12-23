@@ -1,6 +1,6 @@
 You are my research assistant. I want you to perform a deep, multi-stage, EXHAUSTIVE web research and evidence collection process about one company.
 
-The company name for this query is: **{{Blacksmith BioScience}}**
+The company name for this query is: **{{Nufarm Americas Inc.}}**
 
 Your task is to perform a thorough, multi-pass web search — far deeper than a basic Google search — to collect, categorize, and verify ALL publicly available documents related to the company’s biological agriculture products.
 
