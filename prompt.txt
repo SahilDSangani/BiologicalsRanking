@@ -1,0 +1,131 @@
+You are my research assistant. I want you to perform a deep, multi-stage, EXHAUSTIVE web research and evidence collection process about one company.
+
+The company name for this query is: **{{Blacksmith BioScience}}**
+
+Your task is to perform a thorough, multi-pass web search — far deeper than a basic Google search — to collect, categorize, and verify ALL publicly available documents related to the company’s biological agriculture products.
+
+---------------------------------------------------------
+CRITICAL EXECUTION REQUIREMENTS (READ CAREFULLY):
+---------------------------------------------------------
+
+- You MUST search exhaustively.
+- You may NOT stop after finding a “reasonable sample.”
+- You may NOT cap results per category.
+- You MUST continue searching each category until diminishing returns are reached and no NEW documents can be found using additional query variations.
+- If a category plausibly contains dozens of documents, you are expected to find dozens.
+- Stopping early is considered an incorrect result.
+
+You MUST perform multiple iterative search passes per category, expanding queries, sources, keywords, and file types each time.
+
+You are NOT allowed to summarize or select “representative” documents.
+You are required to enumerate ALL discoverable documents that meet the criteria.
+
+---------------------------------------------------------
+SCOPE OF PRODUCTS TO INCLUDE (VERY IMPORTANT):
+---------------------------------------------------------
+
+Only include documents that relate to the company’s:
+
+- Bio-fertilizers
+- Bio-stimulants
+- Bio-controls (biopesticides, bioprotectants)
+
+Additional rules:
+- If a product is unrelated (e.g., chemical pesticides, cleaning agents, non-agricultural bio products), exclude it.
+- If a product is somewhat related (e.g., soil microbes, inoculants, microbial blends, biological amendments), include it.
+- If unsure, include it but clearly state why.
+- Each document must be placed in EXACTLY one category below.
+- Do NOT fabricate anything. Only include documents that truly exist and provide a working URL.
+
+---------------------------------------------------------
+CATEGORIES YOU MUST COLLECT AND CATEGORIZE:
+---------------------------------------------------------
+
+A. Research Reports
+This category combines ALL of the following into a single level:
+- Company-authored white papers or technical briefs
+- Peer-reviewed academic or journal articles
+- Independent research reports by universities, extension services, government agencies, agronomists, consultants, or third-party research organizations
+
+Any document that presents experimental data, trials, evaluations, scientific analysis, or performance results related to the company’s biological ag products belongs here.
+
+B. Lab Reports
+Controlled laboratory experiments or analytical testing that mention or evaluate the company’s biological products.
+
+C. Field Reports
+On-farm, greenhouse, or field trial results involving the company’s biological ag products.
+
+D. Testimonials
+Customer, grower, distributor, or partner testimonials that directly describe experiences using the company’s biological products.
+
+E. News Articles
+Press releases, trade publication articles, industry news, announcements, or media coverage related to the company’s biological products.
+
+F. User Reviews
+Unstructured or informal user feedback from ANY platform, including but not limited to:
+- Google Reviews
+- Reddit
+- Forums
+- X (Twitter)
+- LinkedIn
+- Facebook
+- YouTube comments
+- Agricultural product review sites
+
+---------------------------------------------------------
+MANDATORY SEARCH STRATEGY (NO SKIPPING):
+---------------------------------------------------------
+
+For EACH category, you MUST:
+
+1. Perform multiple query iterations using:
+- Company name variations
+- Product names
+- Active ingredients
+- Microbial strains
+- Biological formulations
+- Trial-related keywords (e.g., “trial,” “study,” “evaluation,” “results,” “efficacy”)
+- Filetype searches (PDF, DOC, PPT, XLS)
+- Site-restricted searches (e.g., site:.edu, site:.gov, site:companydomain)
+
+2. Search across ALL of the following:
+- General search engines
+- Company website and ALL subdomains
+- PDF repositories and document archives
+- University and extension program websites
+- Government agriculture and regulatory sites
+- Academic databases
+- Industry news and trade publications
+- Distributors, resellers, and partners
+- Archived and cached web pages
+- Social media platforms and forums
+
+3. Continue expanding searches until:
+- New queries no longer return NEW documents
+- Results begin to repeat previously collected sources
+
+---------------------------------------------------------
+OUTPUT FORMAT:
+---------------------------------------------------------
+
+For each category, provide:
+
+1. A bold header:
+Category X – [Name] – Total Found: N
+
+2. A table with the following columns:
+- Title
+- Link
+- Source Type (PDF, webpage, academic paper, etc.)
+- Why it belongs in this category (one sentence)
+
+3. If a category has ZERO items, explicitly state:
+“No items found after exhaustive multi-pass search.”
+
+---------------------------------------------------------
+FINAL SUMMARY REQUIREMENT:
+---------------------------------------------------------
+
+After all categories, provide a summary table with:
+- Category
+- Count
