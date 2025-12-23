@@ -7,7 +7,7 @@ window.onload = function() {
 };
 
 function fetchData() {
-    fetch('data.json')
+    fetch('/api/data')
         .then(response => response.json())
         .then(data => {
             currentData = data;
